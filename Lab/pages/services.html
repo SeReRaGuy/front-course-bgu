@@ -85,6 +85,87 @@
             </div>
         </section>
     </article>
+    <section>
+        <form action="submit">
+            <h1 style="margin-bottom: 35px">Записаться на услугу</h1>
+            <div>
+                <label>Категория</label>
+                <select name="category" id="service" required>
+                    <option value="">Выберите категорию</option>
+                    <option value="1">Парикмахер: Удаление причёски</option>
+                    <option value="2">Парикмахер: Укорочение причёски</option>
+                    <option value="3">Парикмахер: Окраска</option>
+                    <option value="4">Парикмахер: Свой стиль</option>
+
+                    <option value="5">СПА-процедуры: Расслабляющий массаж</option>
+                    <option value="6">СПА-процедуры: Увлажняющий массаж</option>
+                    <option value="7">СПА-процедуры: Эксфолиация</option>
+                    <option value="8">СПА-процедуры: Очищающая процедура</option>
+
+                    <option value="9">Маникюр и педикюр: Классический маникюр</option>
+                    <option value="10">Маникюр и педикюр: Европейский маникюр</option>
+                    <option value="11">Маникюр и педикюр: Спа-маникюр</option>
+                    <option value="12">Маникюр и педикюр: Медицинский педикюр</option>
+
+                    <option value="13">Депиляция: Восковая депиляция ног</option>
+                    <option value="14">Депиляция: Шугаринг для области бикини</option>
+                    <option value="15">Депиляция: Депиляция подмышек воском</option>
+                    <option value="16">Депиляция: Лазерная эпиляция верхней губы</option>
+                </select>
+            </div>
+            <div>
+                <label>Выберите время</label>
+                <input type="datetime-local" name="datetime" id="datetime" required>
+            </div>
+            <div>
+                <label>Введите имя</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <button type="submit" onclick="submitForm(event)">Записаться</button>
+        </form>
+
+        <script>
+            function submitForm(event) {
+                event.preventDefault();
+                const datetimeInput = document.getElementById("datetime");
+                const selectedDatetime = new Date(datetimeInput.value);
+                const nameInput = document.getElementById("name");
+                const selectedName = nameInput.value;
+                const categoryInput = document.getElementById("service");
+                const selectedCategory = categoryInput.value;
+
+                // Проверка на время работы (с 8 утра до 8 вечера)
+                const isWorkingHours = selectedDatetime.getHours() >= 8 && selectedDatetime.getHours() < 20;
+
+                // Проверка на прошедшее время
+                const isPastTime = selectedDatetime < new Date();
+
+                if (
+                    selectedDatetime !== "" &&
+                    selectedName.trim() !== "" &&
+                    selectedCategory.trim() !== ""
+                ) {
+                    if (!isWorkingHours) {
+                        alert("Пожалуйста, выберите время в рабочие часы с 8:00 до 20:00.");
+                    } else if (isPastTime) {
+                        alert("Невозможно записаться на прошедшее время.");
+                    } else {
+                        datetimeInput.value = "";
+                        document.getElementById("service").value = "";
+                        document.getElementById("name").value = "";
+                        alert("Вы записаны! Ждём вас!");
+                    }
+                } else if (selectedCategory.trim() === "") {
+                    alert("Пожалуйста, выберите услугу.");
+                } else if (selectedDatetime === "") {
+                    alert("Пожалуйста, выберите дату и время.");
+                } else if (selectedName.trim() === "") {
+                    alert("Пожалуйста, введите имя.");
+                }
+            }
+        </script>
+    </section>
+    </section>
 
 </main>
 </body>

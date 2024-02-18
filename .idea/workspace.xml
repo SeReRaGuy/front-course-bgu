@@ -4,32 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffedeff2-2350-477e-b118-3dc00bfc4f3b" name="Changes" comment="">
+    <list default="true" id="ffedeff2-2350-477e-b118-3dc00bfc4f3b" name="Changes" comment="Удалил копию, лабораторная готова к сдаче">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/img/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/img/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/img/null_picture.png" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/img/null_picture.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/img/null_picture_BaA.png" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/img/null_picture_BaA.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/pages/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/pages/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/pages/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/pages/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/pages/prices.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/pages/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/pages/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/img/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/img/null_picture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/img/null_picture_BaA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/pages/contacts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/pages/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/pages/prices.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/pages/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab/pages/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/pages/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -74,7 +56,7 @@
       <updated>1708151976837</updated>
       <workItem from="1708151979437" duration="1248000" />
       <workItem from="1708154844632" duration="216000" />
-      <workItem from="1708258139943" duration="1510000" />
+      <workItem from="1708258139943" duration="2977000" />
     </task>
     <task id="LOCAL-00001" summary="Скопировал первую лабораторную работу">
       <created>1708260812009</created>
@@ -90,15 +72,46 @@
       <option name="project" value="LOCAL" />
       <updated>1708261014165</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Удалил копию, лабораторная готова к сдаче">
+      <created>1708261679812</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708261679812</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Lab2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Скопировал первую лабораторную работу" />
     <MESSAGE value="Наведён порядок в изображениях" />
-    <option name="LAST_COMMIT_MESSAGE" value="Наведён порядок в изображениях" />
+    <MESSAGE value="Удалил копию, лабораторная готова к сдаче" />
+    <option name="LAST_COMMIT_MESSAGE" value="Удалил копию, лабораторная готова к сдаче" />
   </component>
 </project>
