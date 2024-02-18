@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffedeff2-2350-477e-b118-3dc00bfc4f3b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/img/kas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/img/man.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/img/null_picture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/img/null_picture_BaA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/img/pa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/img/vi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/pages/contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/pages/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/pages/prices.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/pages/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,19 +37,19 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Universitet/PROGRAM/GIT/MTS/Front&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Universitet/6 semestr_code PC/GIT/MTS/Front/Lab2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,6 +60,7 @@
       <updated>1708151976837</updated>
       <workItem from="1708151979437" duration="1248000" />
       <workItem from="1708154844632" duration="216000" />
+      <workItem from="1708258139943" duration="664000" />
     </task>
     <servers />
   </component>
