@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffedeff2-2350-477e-b118-3dc00bfc4f3b" name="Changes" comment="Удалил копию, лабораторная готова к сдаче">
+    <list default="true" id="ffedeff2-2350-477e-b118-3dc00bfc4f3b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab/pages/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/pages/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +13,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="Lab2" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -56,7 +68,7 @@
       <updated>1708151976837</updated>
       <workItem from="1708151979437" duration="1248000" />
       <workItem from="1708154844632" duration="216000" />
-      <workItem from="1708258139943" duration="2977000" />
+      <workItem from="1708258139943" duration="4461000" />
     </task>
     <task id="LOCAL-00001" summary="Скопировал первую лабораторную работу">
       <created>1708260812009</created>
@@ -79,13 +91,40 @@
       <option name="project" value="LOCAL" />
       <updated>1708261679812</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавлен скрипт JS, лабораторная 2 готова">
+      <created>1708263818301</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708263818301</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -96,7 +135,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Lab2" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -112,6 +151,7 @@
     <MESSAGE value="Скопировал первую лабораторную работу" />
     <MESSAGE value="Наведён порядок в изображениях" />
     <MESSAGE value="Удалил копию, лабораторная готова к сдаче" />
-    <option name="LAST_COMMIT_MESSAGE" value="Удалил копию, лабораторная готова к сдаче" />
+    <MESSAGE value="Добавлен скрипт JS, лабораторная 2 готова" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен скрипт JS, лабораторная 2 готова" />
   </component>
 </project>

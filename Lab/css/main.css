@@ -155,5 +155,20 @@ button {
     cursor: pointer;
 }
 
+.form-section {
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center;
+}
+
+.left-form {
+    flex: 1;
+    order: 1;
+}
+
+.right-form {
+    flex: 1;
+    order: 2;
+}
 
 
