@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    flex-direction: column; /* Установим направление столбца, чтобы элементы выстраивались вертикально */
+    align-items: center; /* Выравниваем элементы по центру по горизонтали */
+    justify-content: center; /* Выравниваем элементы по центру по вертикали */
+    background-color: #ffffff;
+    padding: 20px 20px;
+    font-size: 16px;
+    border-bottom: 4px solid orange; /* Добавляем нижнюю оранжевую границу */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
